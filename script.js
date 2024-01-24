@@ -2,7 +2,7 @@ const confettiBtn = document.querySelector(".confetti-button");
 
 confettiBtn.addEventListener("click", () => {
   const canvas = document.createElement("canvas");
-  const container = document.querySelector(".wrapper");
+  const container = document.querySelector(".wrapper2");
 
   // set dimensions for canvas
   canvas.width = 1000;
